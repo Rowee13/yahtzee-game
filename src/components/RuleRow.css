@@ -1,6 +1,7 @@
 .RuleRow {
 	transition: all 0.2s;
 }
+
 .RuleRow-active:hover {
 	cursor: pointer;
 	background: rgba(227, 242, 253, 0.5);
@@ -26,6 +27,7 @@
 		background-position: 0% 51%;
 	}
 }
+
 .RuleRow-disabled td:first-child {
 	text-decoration: line-through;
 }
